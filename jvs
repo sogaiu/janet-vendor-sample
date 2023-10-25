@@ -1,0 +1,5 @@
+(import janet-vendor-sample/main)
+
+(defn main
+  [& argv]
+  (main/main ;argv))
