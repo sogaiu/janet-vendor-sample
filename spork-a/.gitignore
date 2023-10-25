@@ -1,0 +1,14 @@
+build/
+site/
+/tags
+/tasks
+temp.janet
+_develop
+_release
+_out
+_debug
+/tmp
+temp.html
+temp.mdz
+
+jpm_tree

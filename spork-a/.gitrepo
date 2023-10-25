@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/janet-lang/spork
+	branch = master
+	commit = 641b27238e073c5f5f963ec16c79b51643d3e66f
+	parent = ec2b26d41377aa198851ad31a78cb9b78951192f
+	method = merge
+	cmdver = 0.4.6
