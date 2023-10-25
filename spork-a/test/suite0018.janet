@@ -1,5 +1,5 @@
-(import spork/utf8)
-(use ../spork/test)
+(import spork-a/utf8)
+(use ../spork-a/test)
 
 (start-suite 18)
 

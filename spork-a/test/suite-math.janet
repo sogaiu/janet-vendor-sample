@@ -1,10 +1,10 @@
-(use ../spork/misc)
-(use ../spork/test)
-(use ../spork/math)
+(use ../spork-a/misc)
+(use ../spork-a/test)
+(use ../spork-a/math)
 
 (start-suite)
 
-(assert-docs "/spork/math")
+(assert-docs "/spork-a/math")
 
 (assert (= (extent (range 10)) [0 9])
         "extent")

@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import ../spork/path)
+(use ../spork-a/test)
+(import ../spork-a/path)
 
 (start-suite 6)
 

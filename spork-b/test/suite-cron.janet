@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import ../spork/cron)
+(use ../spork-b/test)
+(import ../spork-b/cron)
 
 (start-suite)
 

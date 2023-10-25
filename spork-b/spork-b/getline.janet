@@ -7,7 +7,7 @@
 ### TODO
 # - unit testing?
 
-(import spork/rawterm)
+(import spork-b/rawterm)
 
 (def max-history "Maximal amount of items in the history" 500)
 

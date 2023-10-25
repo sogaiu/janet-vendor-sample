@@ -11,7 +11,7 @@
 (import ./http)
 (import ./schema)
 
-(import spork/json)
+(import spork-b/json)
 
 # Parse the Accept header and find the first support mime type.
 (def- accept-peg

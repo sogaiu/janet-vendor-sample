@@ -400,6 +400,13 @@ static const char *encode_one(Encoder *e, Janet x, int depth) {
                 const uint8_t *end;
                 int32_t len;
                 janet_bytes_view(x, &bytes, &len);
+                if ((len == 0) && (janet_type(x) == JANET_KEYWORD)) {
+                    janet_buffer_push_u8(e->buffer, 'n');
+                    janet_buffer_push_u8(e->buffer, 'u');
+                    janet_buffer_push_u8(e->buffer, 'l');
+                    janet_buffer_push_u8(e->buffer, 'l');
+                    break;
+                }
                 janet_buffer_push_u8(e->buffer, '"');
                 c = bytes;
                 end = bytes + len;

@@ -1,5 +1,5 @@
 (use ./misc)
-(import spork/cmath :prefix "" :export true)
+(import spork-b/cmath :prefix "" :export true)
 
 # Statistics
 

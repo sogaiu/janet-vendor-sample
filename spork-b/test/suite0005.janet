@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import ../spork/argparse)
+(use ../spork-b/test)
+(import ../spork-b/argparse)
 
 (start-suite 5)
 

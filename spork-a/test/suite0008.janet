@@ -1,5 +1,5 @@
-(import ../spork/temple :as temple)
-(import ../spork/test)
+(import ../spork-a/temple :as temple)
+(import ../spork-a/test)
 
 (temple/add-loader)
 
@@ -43,7 +43,7 @@
 (test/assert (= expected (string out)) "Rendered temple string produces \"hello world\"")
 
 (def ctc
-  `{$ (import /spork/fmt) $}{{ (fmt/format (string "(def c    " (args :a) " )")) }}`)
+  `{$ (import /spork-a/fmt) $}{{ (fmt/format (string "(def c    " (args :a) " )")) }}`)
 
 (test/assert (deep= ((temple/compile ctc) :a "a > b")
                     @"(def c a &gt; b)\n")

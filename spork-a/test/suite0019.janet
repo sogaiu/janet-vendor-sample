@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import spork/rawterm)
+(use ../spork-a/test)
+(import spork-a/rawterm)
 
 (start-suite 19)
 

@@ -1,9 +1,9 @@
-(use ../spork/test)
-(import ../spork/data :as d)
+(use ../spork-b/test)
+(import ../spork-b/data :as d)
 
 (start-suite 21)
 
-(assert-docs "/spork/data")
+(assert-docs "/spork-b/data")
 
 (defn diff-assert [a b should-be msg]
   (assert (deep= (d/diff a b) should-be) msg))
@@ -85,7 +85,7 @@
 
 (map |(diff-assert ;$) cases)
 
-(import ../spork/base64)
+(import ../spork-b/base64)
 
 #base64/encode
 (assert (= (base64/encode "this is a test") "dGhpcyBpcyBhIHRlc3Q="))

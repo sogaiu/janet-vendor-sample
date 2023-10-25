@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import spork/zip)
+(use ../spork-b/test)
+(import spork-b/zip)
 
 (start-suite)
 

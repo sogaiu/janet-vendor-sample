@@ -4,7 +4,7 @@
 ### One-off functions that don't need their own module.
 ###
 
-(import spork/rawterm)
+(import spork-b/rawterm)
 
 (def- eol (if (= :windows (os/which)) "\r\n" "\n"))
 

@@ -26,9 +26,9 @@
 (import ./test :export true)
 
 # native dependencies
-(import spork/crc :export true)
-(import spork/json :export true)
-(import spork/rawterm :export true)
-(import spork/tarray :export true)
-(import spork/utf8 :export true)
-(import spork/zip :export true)
+(import spork-a/crc :export true)
+(import spork-a/json :export true)
+(import spork-a/rawterm :export true)
+(import spork-a/tarray :export true)
+(import spork-a/utf8 :export true)
+(import spork-a/zip :export true)

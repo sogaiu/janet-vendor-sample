@@ -1,8 +1,8 @@
-(use ../spork/test)
-(import ../spork/mdz)
+(use ../spork-b/test)
+(import ../spork-b/mdz)
 
 (start-suite)
-(assert-docs "../spork/mdz")
+(assert-docs "../spork-b/mdz")
 (assert (= [:img {:src "test.jpg" :alt "test"}]
            (mdz/image "test.jpg" "test")) "image alt")
 

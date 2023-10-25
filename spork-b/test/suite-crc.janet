@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import spork/crc)
+(use ../spork-b/test)
+(import spork-b/crc)
 
 (start-suite)
 

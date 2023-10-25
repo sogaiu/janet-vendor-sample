@@ -1,6 +1,6 @@
-(use ../spork/test)
-(import ../spork/http :as http)
-(import ../spork/httpf :as httpf)
+(use ../spork-a/test)
+(import ../spork-a/http :as http)
+(import ../spork-a/httpf :as httpf)
 
 (start-suite 12)
 

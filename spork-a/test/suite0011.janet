@@ -1,6 +1,6 @@
-(use ../spork/test)
-(import ../spork/ev-utils :as eu)
-(import ../spork/generators :as generators)
+(use ../spork-a/test)
+(import ../spork-a/ev-utils :as eu)
+(import ../spork-a/generators :as generators)
 
 (start-suite 11)
 

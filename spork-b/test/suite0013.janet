@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import ../spork/schema :as schema)
+(use ../spork-b/test)
+(import ../spork-b/schema :as schema)
 
 (start-suite 13)
 

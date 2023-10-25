@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import ../spork/ev-utils :as eu)
+(use ../spork-a/test)
+(import ../spork-a/ev-utils :as eu)
 
 (start-suite 10)
 

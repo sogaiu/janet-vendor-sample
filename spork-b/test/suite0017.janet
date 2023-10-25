@@ -1,6 +1,6 @@
-(use ../spork/test)
-(import ../spork/sh)
-(import ../spork/path)
+(use ../spork-b/test)
+(import ../spork-b/sh)
+(import ../spork-b/path)
 
 (start-suite 17)
 

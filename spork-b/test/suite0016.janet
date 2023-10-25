@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import ../spork/htmlgen :as htmlgen)
+(use ../spork-b/test)
+(import ../spork-b/htmlgen :as htmlgen)
 
 (start-suite 16)
 

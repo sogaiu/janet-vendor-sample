@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import ../spork/regex)
+(use ../spork-a/test)
+(import ../spork-a/regex)
 
 (start-suite 4)
 

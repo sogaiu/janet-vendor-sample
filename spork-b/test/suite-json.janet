@@ -1,5 +1,5 @@
-(use ../spork/test)
-(import spork/json :as json)
+(use ../spork-b/test)
+(import spork-b/json :as json)
 
 (start-suite)
 
